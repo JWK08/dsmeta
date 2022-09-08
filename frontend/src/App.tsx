@@ -1,6 +1,6 @@
-import Header from "./components/Header"
-import Salescard from "./components/SalesCard"
-import NotificationButton from "./components/NotificationButton"
+import Header from "./components/Header";
+import Salescard from "./components/SalesCard";
+import NotificationButton from "./components/NotificationButton";
     
 function App() {
     return (    
@@ -9,8 +9,7 @@ function App() {
             <main>
                 <section id="sales">
                     <div className="dsmmeta-container">
-                        <Salescard />
-                     
+                        <Salescard />               
                     </div>
                 </section>  
             </main>
@@ -18,4 +17,4 @@ function App() {
     )
 }
 
-export default App
+export default App;
